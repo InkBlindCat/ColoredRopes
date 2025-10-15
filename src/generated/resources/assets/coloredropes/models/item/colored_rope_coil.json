@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "coloredropes:item/colored_rope_coil"
+  }
+}

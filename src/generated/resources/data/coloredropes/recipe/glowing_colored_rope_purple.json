@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "purple"
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "purple"
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "purple"
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "purple"
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "purple"
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "purple"
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "purple"
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "purple"
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    "minecraft:glowstone_dust"
+  ],
+  "result": {
+    "components": {
+      "coloredropes:color": "purple",
+      "coloredropes:glow": true
+    },
+    "count": 8,
+    "id": "coloredropes:colored_rope"
+  }
+}

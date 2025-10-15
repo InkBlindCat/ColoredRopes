@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "green"
+      },
+      "items": "coloredropes:colored_rope_coil"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "green"
+      },
+      "items": "coloredropes:colored_rope_coil"
+    },
+    "minecraft:arrow"
+  ],
+  "result": {
+    "components": {
+      "coloredropes:color": "green"
+    },
+    "count": 1,
+    "id": "coloredropes:colored_rope_arrow"
+  }
+}

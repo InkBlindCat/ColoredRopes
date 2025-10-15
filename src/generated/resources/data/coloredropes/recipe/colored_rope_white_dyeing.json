@@ -1,0 +1,443 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "neoforge:ingredient_type": "coloredropes:array_data_component_array",
+      "components": [
+        {
+          "coloredropes:color": "white"
+        },
+        {
+          "coloredropes:color": "orange"
+        },
+        {
+          "coloredropes:color": "magenta"
+        },
+        {
+          "coloredropes:color": "light_blue"
+        },
+        {
+          "coloredropes:color": "yellow"
+        },
+        {
+          "coloredropes:color": "lime"
+        },
+        {
+          "coloredropes:color": "pink"
+        },
+        {
+          "coloredropes:color": "gray"
+        },
+        {
+          "coloredropes:color": "light_gray"
+        },
+        {
+          "coloredropes:color": "cyan"
+        },
+        {
+          "coloredropes:color": "purple"
+        },
+        {
+          "coloredropes:color": "blue"
+        },
+        {
+          "coloredropes:color": "brown"
+        },
+        {
+          "coloredropes:color": "green"
+        },
+        {
+          "coloredropes:color": "red"
+        },
+        {
+          "coloredropes:color": "black"
+        }
+      ],
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "coloredropes:array_data_component_array",
+      "components": [
+        {
+          "coloredropes:color": "white"
+        },
+        {
+          "coloredropes:color": "orange"
+        },
+        {
+          "coloredropes:color": "magenta"
+        },
+        {
+          "coloredropes:color": "light_blue"
+        },
+        {
+          "coloredropes:color": "yellow"
+        },
+        {
+          "coloredropes:color": "lime"
+        },
+        {
+          "coloredropes:color": "pink"
+        },
+        {
+          "coloredropes:color": "gray"
+        },
+        {
+          "coloredropes:color": "light_gray"
+        },
+        {
+          "coloredropes:color": "cyan"
+        },
+        {
+          "coloredropes:color": "purple"
+        },
+        {
+          "coloredropes:color": "blue"
+        },
+        {
+          "coloredropes:color": "brown"
+        },
+        {
+          "coloredropes:color": "green"
+        },
+        {
+          "coloredropes:color": "red"
+        },
+        {
+          "coloredropes:color": "black"
+        }
+      ],
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "coloredropes:array_data_component_array",
+      "components": [
+        {
+          "coloredropes:color": "white"
+        },
+        {
+          "coloredropes:color": "orange"
+        },
+        {
+          "coloredropes:color": "magenta"
+        },
+        {
+          "coloredropes:color": "light_blue"
+        },
+        {
+          "coloredropes:color": "yellow"
+        },
+        {
+          "coloredropes:color": "lime"
+        },
+        {
+          "coloredropes:color": "pink"
+        },
+        {
+          "coloredropes:color": "gray"
+        },
+        {
+          "coloredropes:color": "light_gray"
+        },
+        {
+          "coloredropes:color": "cyan"
+        },
+        {
+          "coloredropes:color": "purple"
+        },
+        {
+          "coloredropes:color": "blue"
+        },
+        {
+          "coloredropes:color": "brown"
+        },
+        {
+          "coloredropes:color": "green"
+        },
+        {
+          "coloredropes:color": "red"
+        },
+        {
+          "coloredropes:color": "black"
+        }
+      ],
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "coloredropes:array_data_component_array",
+      "components": [
+        {
+          "coloredropes:color": "white"
+        },
+        {
+          "coloredropes:color": "orange"
+        },
+        {
+          "coloredropes:color": "magenta"
+        },
+        {
+          "coloredropes:color": "light_blue"
+        },
+        {
+          "coloredropes:color": "yellow"
+        },
+        {
+          "coloredropes:color": "lime"
+        },
+        {
+          "coloredropes:color": "pink"
+        },
+        {
+          "coloredropes:color": "gray"
+        },
+        {
+          "coloredropes:color": "light_gray"
+        },
+        {
+          "coloredropes:color": "cyan"
+        },
+        {
+          "coloredropes:color": "purple"
+        },
+        {
+          "coloredropes:color": "blue"
+        },
+        {
+          "coloredropes:color": "brown"
+        },
+        {
+          "coloredropes:color": "green"
+        },
+        {
+          "coloredropes:color": "red"
+        },
+        {
+          "coloredropes:color": "black"
+        }
+      ],
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "coloredropes:array_data_component_array",
+      "components": [
+        {
+          "coloredropes:color": "white"
+        },
+        {
+          "coloredropes:color": "orange"
+        },
+        {
+          "coloredropes:color": "magenta"
+        },
+        {
+          "coloredropes:color": "light_blue"
+        },
+        {
+          "coloredropes:color": "yellow"
+        },
+        {
+          "coloredropes:color": "lime"
+        },
+        {
+          "coloredropes:color": "pink"
+        },
+        {
+          "coloredropes:color": "gray"
+        },
+        {
+          "coloredropes:color": "light_gray"
+        },
+        {
+          "coloredropes:color": "cyan"
+        },
+        {
+          "coloredropes:color": "purple"
+        },
+        {
+          "coloredropes:color": "blue"
+        },
+        {
+          "coloredropes:color": "brown"
+        },
+        {
+          "coloredropes:color": "green"
+        },
+        {
+          "coloredropes:color": "red"
+        },
+        {
+          "coloredropes:color": "black"
+        }
+      ],
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "coloredropes:array_data_component_array",
+      "components": [
+        {
+          "coloredropes:color": "white"
+        },
+        {
+          "coloredropes:color": "orange"
+        },
+        {
+          "coloredropes:color": "magenta"
+        },
+        {
+          "coloredropes:color": "light_blue"
+        },
+        {
+          "coloredropes:color": "yellow"
+        },
+        {
+          "coloredropes:color": "lime"
+        },
+        {
+          "coloredropes:color": "pink"
+        },
+        {
+          "coloredropes:color": "gray"
+        },
+        {
+          "coloredropes:color": "light_gray"
+        },
+        {
+          "coloredropes:color": "cyan"
+        },
+        {
+          "coloredropes:color": "purple"
+        },
+        {
+          "coloredropes:color": "blue"
+        },
+        {
+          "coloredropes:color": "brown"
+        },
+        {
+          "coloredropes:color": "green"
+        },
+        {
+          "coloredropes:color": "red"
+        },
+        {
+          "coloredropes:color": "black"
+        }
+      ],
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "coloredropes:array_data_component_array",
+      "components": [
+        {
+          "coloredropes:color": "white"
+        },
+        {
+          "coloredropes:color": "orange"
+        },
+        {
+          "coloredropes:color": "magenta"
+        },
+        {
+          "coloredropes:color": "light_blue"
+        },
+        {
+          "coloredropes:color": "yellow"
+        },
+        {
+          "coloredropes:color": "lime"
+        },
+        {
+          "coloredropes:color": "pink"
+        },
+        {
+          "coloredropes:color": "gray"
+        },
+        {
+          "coloredropes:color": "light_gray"
+        },
+        {
+          "coloredropes:color": "cyan"
+        },
+        {
+          "coloredropes:color": "purple"
+        },
+        {
+          "coloredropes:color": "blue"
+        },
+        {
+          "coloredropes:color": "brown"
+        },
+        {
+          "coloredropes:color": "green"
+        },
+        {
+          "coloredropes:color": "red"
+        },
+        {
+          "coloredropes:color": "black"
+        }
+      ],
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "coloredropes:array_data_component_array",
+      "components": [
+        {
+          "coloredropes:color": "white"
+        },
+        {
+          "coloredropes:color": "orange"
+        },
+        {
+          "coloredropes:color": "magenta"
+        },
+        {
+          "coloredropes:color": "light_blue"
+        },
+        {
+          "coloredropes:color": "yellow"
+        },
+        {
+          "coloredropes:color": "lime"
+        },
+        {
+          "coloredropes:color": "pink"
+        },
+        {
+          "coloredropes:color": "gray"
+        },
+        {
+          "coloredropes:color": "light_gray"
+        },
+        {
+          "coloredropes:color": "cyan"
+        },
+        {
+          "coloredropes:color": "purple"
+        },
+        {
+          "coloredropes:color": "blue"
+        },
+        {
+          "coloredropes:color": "brown"
+        },
+        {
+          "coloredropes:color": "green"
+        },
+        {
+          "coloredropes:color": "red"
+        },
+        {
+          "coloredropes:color": "black"
+        }
+      ],
+      "items": "coloredropes:colored_rope"
+    },
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "count": 8,
+    "id": "coloredropes:colored_rope"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_rope": {
+      "conditions": {
+        "items": [
+          {
+            "items": "coloredropes:colored_rope"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "coloredropes:colored_rope_coil_purple"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_colored_rope"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "coloredropes:colored_rope_coil_purple"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "coloredropes:item/colored_rope_coil",
+      "tints": [
+        {
+          "type": "coloredropes:colored_item_tint_source"
+        }
+      ]
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "coloredropes:item/colored_rope_coil_glow",
+      "tints": [
+        {
+          "type": "coloredropes:colored_item_tint_source"
+        }
+      ]
+    },
+    "property": "coloredropes:is_glow_item"
+  }
+}

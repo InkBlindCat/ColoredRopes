@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:gray_wool"
+  },
+  "pattern": [
+    "WWW",
+    "  W"
+  ],
+  "result": {
+    "components": {
+      "coloredropes:color": "gray"
+    },
+    "count": 32,
+    "id": "coloredropes:colored_rope"
+  }
+}

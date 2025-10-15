@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "coloredropes:copy_color"
+            },
+            {
+              "function": "coloredropes:copy_glow"
+            }
+          ],
+          "name": "coloredropes:colored_rope"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "coloredropes:blocks/colored_rope"
+}

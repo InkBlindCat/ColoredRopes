@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "orange",
+        "coloredropes:glow": true
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "orange",
+        "coloredropes:glow": true
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "orange",
+        "coloredropes:glow": true
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "orange",
+        "coloredropes:glow": true
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "orange",
+        "coloredropes:glow": true
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "orange",
+        "coloredropes:glow": true
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "orange",
+        "coloredropes:glow": true
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "coloredropes:color": "orange",
+        "coloredropes:glow": true
+      },
+      "items": "coloredropes:colored_rope"
+    },
+    "minecraft:stick"
+  ],
+  "result": {
+    "components": {
+      "coloredropes:color": "orange",
+      "coloredropes:glow": true
+    },
+    "count": 1,
+    "id": "coloredropes:colored_rope_coil"
+  }
+}
