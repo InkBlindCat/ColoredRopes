@@ -57,8 +57,7 @@
         "coloredropes:color": "light_gray"
       },
       "items": "coloredropes:colored_rope"
-    },
-    "minecraft:stick"
+    }
   ],
   "result": {
     "components": {

@@ -155,7 +155,6 @@ public class ModRecipeProvider extends RecipeProvider {
 
             shapeless(RecipeCategory.MISC, itemStack)
                     .requires(ropeIngredient, 8)
-                    .requires(Items.STICK)
                     .unlockedBy("has_" + getItemName(ModBlocks.COLORED_ROPE.asItem()), has(ModBlocks.COLORED_ROPE.asItem()))
                     .save(output, getColoredRecipeResourceKey(ModItems.COLORED_ROPE_COIL.get(), color));
         }
@@ -176,7 +175,6 @@ public class ModRecipeProvider extends RecipeProvider {
 
             shapeless(RecipeCategory.MISC, itemStack)
                     .requires(ropeIngredient, 8)
-                    .requires(Items.STICK)
                     .unlockedBy("has_" + getItemName(ModBlocks.COLORED_ROPE.asItem()), has(ModBlocks.COLORED_ROPE.asItem()))
                     .save(output, withPrefix(getColoredRecipeResourceKey(ModItems.COLORED_ROPE_COIL.get(), color), "glowing"));
         }
