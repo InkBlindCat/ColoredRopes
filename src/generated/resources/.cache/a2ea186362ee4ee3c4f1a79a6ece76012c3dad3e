@@ -1,11 +1,11 @@
-// 1.21.5	2025-10-16T01:16:43.8490403	Model Definitions - coloredropes
+// 1.21.5	2025-10-16T15:11:54.2127784	Model Definitions - coloredropes
 086d286097ee4187310bf32b0054d2313090e8a5 assets/coloredropes/blockstates/colored_rope.json
 cd17b04ee856a325e5488fcffc3693b8d90b713e assets/coloredropes/items/colored_rope.json
 108a32e7105e44607b6c5a7dc8f97b95644cff48 assets/coloredropes/items/colored_rope_arrow.json
 4c7ed564cb89ba7dd8449e5c372e92a65d25e9b5 assets/coloredropes/items/colored_rope_coil.json
 e7ba6baf73b4b0c2eb5adb21472e2bc7d96f9b87 assets/coloredropes/models/item/colored_rope.json
-d4dd1f77da849b8995c219a25c1e05e532621c44 assets/coloredropes/models/item/colored_rope_arrow.json
-7af9c4df6f61b90845063d4c6c11535c38d0313e assets/coloredropes/models/item/colored_rope_arrow_glow.json
+07c419e2f7bc879cb83546bf2fbe9fbff0934f2e assets/coloredropes/models/item/colored_rope_arrow.json
+aad0e72ac0ebfab2343983e7b8c87d56be3ca75f assets/coloredropes/models/item/colored_rope_arrow_glow.json
 549335727e9d5678ac2a0a19fc75eea709344da3 assets/coloredropes/models/item/colored_rope_coil.json
-dbd386e42feacb8b84ee197d0da05591716b16b4 assets/coloredropes/models/item/colored_rope_coil_glow.json
-20fa2440acedce5dd847cb08cd33540d8e861bcb assets/coloredropes/models/item/colored_rope_glow.json
+27250b1b4b21482f5d8a77c9674df45053dbe23e assets/coloredropes/models/item/colored_rope_coil_glow.json
+a26d2f1ed39bf278a40b3398a14065903d701e86 assets/coloredropes/models/item/colored_rope_glow.json
