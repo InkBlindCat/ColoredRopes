@@ -64,16 +64,16 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         createColoredRope(blockModels, ModBlocks.COLORED_ROPE.get());
 
-        generateGlowingColoredItem(itemModels, ModBlocks.COLORED_ROPE.asItem(), "item/rope_glow");
-        generateGlowingColoredItem(itemModels, ModItems.COLORED_ROPE_COIL.get(), "item/rope_coil_glow");
+        generateGlowingColoredItem(itemModels, ModBlocks.COLORED_ROPE.asItem());
+        generateGlowingColoredItem(itemModels, ModItems.COLORED_ROPE_COIL.get());
         generateColoredRopeArrowItem(itemModels, ModItems.COLORED_ROPE_ARROW.get());
     }
 
-    private void generateGlowingColoredItem(ItemModelGenerators itemModels, Item coloredItem, String glowPath) {
+    private void generateGlowingColoredItem(ItemModelGenerators itemModels, Item coloredItem) {
         ResourceLocation resourceLocation1 = itemModels.createFlatItemModel(coloredItem, ModelTemplates.FLAT_ITEM);
         ResourceLocation resourceLocation2 = GLOWING_ITEM.create(coloredItem, TextureMapping.layered(
-                        ModelLocationUtils.getModelLocation(coloredItem),
-                        ResourceLocation.fromNamespaceAndPath(ColoredRopes.MODID, glowPath)
+                        ModelLocationUtils.getModelLocation(coloredItem).withSuffix("_without_glow"),
+                        ModelLocationUtils.getModelLocation(coloredItem).withSuffix("_glow")
                 ),itemModels.modelOutput
         );
 
@@ -94,13 +94,13 @@ public class ModModelProvider extends ModelProvider {
     private void generateColoredRopeArrowItem(ItemModelGenerators itemModels, Item coloredItem) {
         ResourceLocation resourceLocation1 = ROPE_ARROW_ITEM.create(coloredItem, TextureMapping.layered(
                         ModelLocationUtils.getModelLocation(coloredItem),
-                        ResourceLocation.fromNamespaceAndPath(ColoredRopes.MODID, "item/rope_arrow_head")
+                        ModelLocationUtils.getModelLocation(coloredItem).withSuffix("_head")
                 ),itemModels.modelOutput
         );
         ResourceLocation resourceLocation2 = GLOWING_ROPE_ARROW_ITEM.create(coloredItem, TextureMapping.layered(
                         ModelLocationUtils.getModelLocation(coloredItem),
-                        ResourceLocation.fromNamespaceAndPath(ColoredRopes.MODID, "item/rope_arrow_head"),
-                        ResourceLocation.fromNamespaceAndPath(ColoredRopes.MODID, "item/rope_arrow_glow")
+                        ModelLocationUtils.getModelLocation(coloredItem).withSuffix("_head"),
+                        ModelLocationUtils.getModelLocation(coloredItem).withSuffix("_glow")
                 ),itemModels.modelOutput
         );
 

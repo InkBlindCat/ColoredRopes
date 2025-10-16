@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "coloredropes:item/colored_rope_coil",
-    "layer1": "coloredropes:item/rope_coil_glow"
+    "layer0": "coloredropes:item/colored_rope_coil_without_glow",
+    "layer1": "coloredropes:item/colored_rope_coil_glow"
   }
 }

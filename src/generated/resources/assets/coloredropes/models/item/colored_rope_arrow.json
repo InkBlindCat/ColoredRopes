@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "coloredropes:item/colored_rope_arrow",
-    "layer1": "coloredropes:item/rope_arrow_head"
+    "layer1": "coloredropes:item/colored_rope_arrow_head"
   }
 }
