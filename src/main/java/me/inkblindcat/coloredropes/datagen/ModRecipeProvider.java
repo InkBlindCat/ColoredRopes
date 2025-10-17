@@ -73,7 +73,7 @@ public class ModRecipeProvider extends RecipeProvider {
             itemStack.set(ModDataComponents.COLOR.get(), color);
             itemStack.setCount(32);
 
-            shaped(RecipeCategory.MISC, itemStack)
+            shaped(RecipeCategory.DECORATIONS, itemStack)
                     .pattern("WWW")
                     .pattern("  W")
                     .define('W', wool)
@@ -91,7 +91,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
             Ingredient ropeIngredient = DataComponentIngredient.of(false, ModDataComponents.COLOR, color, ModBlocks.COLORED_ROPE.asItem());
 
-            shapeless(RecipeCategory.MISC, itemStack)
+            shapeless(RecipeCategory.DECORATIONS, itemStack)
                     .requires(ropeIngredient, 8)
                     .requires(Items.GLOWSTONE_DUST)
                     .unlockedBy("has_" + getItemName(ModBlocks.COLORED_ROPE.asItem()), has(ModBlocks.COLORED_ROPE.asItem()))
@@ -111,7 +111,7 @@ public class ModRecipeProvider extends RecipeProvider {
             Ingredient ropeIngredient = ArrayDataComponentIngredient.of(false,
                     ModDataComponents.COLOR.get(), DyeColor.values(), ModBlocks.COLORED_ROPE.asItem());
 
-            shapeless(RecipeCategory.MISC, itemStack)
+            shapeless(RecipeCategory.DECORATIONS, itemStack)
                     .requires(ropeIngredient, 8)
                     .requires(dye)
                     .unlockedBy("has_" + getItemName(dye), has(dye))
@@ -138,7 +138,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
             Ingredient ropeIngredient = ArrayDataComponentIngredient.of(false, predicates, ModBlocks.COLORED_ROPE.asItem());
 
-            shapeless(RecipeCategory.MISC, itemStack)
+            shapeless(RecipeCategory.DECORATIONS, itemStack)
                     .requires(ropeIngredient, 8)
                     .requires(dye)
                     .unlockedBy("has_" + getItemName(dye), has(dye))
@@ -153,7 +153,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
             Ingredient ropeIngredient = DataComponentIngredient.of(false, ModDataComponents.COLOR, color, ModBlocks.COLORED_ROPE.asItem());
 
-            shapeless(RecipeCategory.MISC, itemStack)
+            shapeless(RecipeCategory.DECORATIONS, itemStack)
                     .requires(ropeIngredient, 8)
                     .unlockedBy("has_" + getItemName(ModBlocks.COLORED_ROPE.asItem()), has(ModBlocks.COLORED_ROPE.asItem()))
                     .save(output, getColoredRecipeResourceKey(ModItems.COLORED_ROPE_COIL.get(), color));
@@ -173,7 +173,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
             Ingredient ropeIngredient = DataComponentIngredient.of(false, predicate, ModBlocks.COLORED_ROPE.asItem());
 
-            shapeless(RecipeCategory.MISC, itemStack)
+            shapeless(RecipeCategory.DECORATIONS, itemStack)
                     .requires(ropeIngredient, 8)
                     .unlockedBy("has_" + getItemName(ModBlocks.COLORED_ROPE.asItem()), has(ModBlocks.COLORED_ROPE.asItem()))
                     .save(output, withPrefix(getColoredRecipeResourceKey(ModItems.COLORED_ROPE_COIL.get(), color), "glowing"));
@@ -188,7 +188,7 @@ public class ModRecipeProvider extends RecipeProvider {
             Ingredient ropeIngredient = DataComponentIngredient.of(false, ModDataComponents.COLOR, color,
                     ModItems.COLORED_ROPE_COIL.get());
 
-            shapeless(RecipeCategory.MISC, itemStack)
+            shapeless(RecipeCategory.TOOLS, itemStack)
                     .requires(ropeIngredient, 2)
                     .requires(Items.ARROW)
                     .unlockedBy("has_" + getItemName(ModItems.COLORED_ROPE_COIL.get()), has(ModItems.COLORED_ROPE_COIL.get()))
@@ -209,7 +209,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
             Ingredient ropeIngredient = DataComponentIngredient.of(false, predicate, ModItems.COLORED_ROPE_COIL.get());
 
-            shapeless(RecipeCategory.MISC, itemStack)
+            shapeless(RecipeCategory.TOOLS, itemStack)
                     .requires(ropeIngredient, 2)
                     .requires(Items.ARROW)
                     .unlockedBy("has_" + getItemName(ModItems.COLORED_ROPE_COIL.get()), has(ModItems.COLORED_ROPE_COIL.get()))

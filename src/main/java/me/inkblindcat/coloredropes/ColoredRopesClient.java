@@ -8,6 +8,7 @@ import me.inkblindcat.coloredropes.registries.ModBlocks;
 import me.inkblindcat.coloredropes.registries.ModEntities;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
@@ -32,7 +33,7 @@ public class ColoredRopesClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.COLORED_ROPE.get(), RenderType.CUTOUT);
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.COLORED_ROPE.get(), ChunkSectionLayer.CUTOUT);
 
         EntityRenderers.register(ModEntities.COLORED_ROPE_ARROW.get(), ColoredRopeArrowRenderer::new);
     }
