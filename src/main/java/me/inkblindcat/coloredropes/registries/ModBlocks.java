@@ -10,12 +10,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import java.util.function.ToIntFunction;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ColoredRopes.MODID);
@@ -23,11 +26,11 @@ public class ModBlocks {
     public static final DeferredBlock<Block> COLORED_ROPE = registerBlock(
             "colored_rope",
             properties -> new ColoredRopeBlock(properties
-                    .noCollission()
+                    .noCollision()
                     .strength(0.2F)
                     .sound(SoundType.WOOL)
                     .noOcclusion()
-                    .lightLevel(state -> state.getValue(ColoredRopeBlock.GLOW) ? 10 : 0)
+                    .lightLevel(glowBlockEmission(10))
             ),
             (block, properties) -> new ColoredRopeItem(block, properties
                     .component(ModDataComponents.COLOR, DyeColor.WHITE)
@@ -54,6 +57,10 @@ public class ModBlocks {
         return BLOCKS.register(name, registryName -> function.apply(BlockBehaviour.Properties.of()
                 .setId(ResourceKey.create(Registries.BLOCK, registryName))
         ));
+    }
+
+    private static ToIntFunction<BlockState> glowBlockEmission(int lightValue) {
+        return (blockState) -> (Boolean)blockState.getValue(ColoredRopeBlock.GLOW) ? lightValue : 0;
     }
 
     public static void register(IEventBus eventBus) {

@@ -108,7 +108,7 @@ public class RopeBlock extends Block {
                 }
             }
 
-            stack.hurtAndBreak(1, player, LivingEntity.getSlotForHand(hand));
+            stack.hurtAndBreak(1, player, player.getUsedItemHand());
 
             return InteractionResult.CONSUME;
         }

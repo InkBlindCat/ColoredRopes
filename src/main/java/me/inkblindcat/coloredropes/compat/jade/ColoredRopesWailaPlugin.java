@@ -26,7 +26,7 @@ public class ColoredRopesWailaPlugin implements IWailaPlugin {
                     itemStack.set(ModDataComponents.COLOR, color);
                     itemStack.set(ModDataComponents.GLOW, glow);
 
-                    return registration.blockAccessor().from(blockAccessor).fakeBlock(itemStack).build();
+                    return registration.blockAccessor().from(blockAccessor).serversideRep(itemStack).build();
                 }
             }
             return accessor;
