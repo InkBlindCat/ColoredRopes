@@ -11,7 +11,6 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.Nullable;
 
-@OnlyIn(Dist.CLIENT)
 public record IsGlowItem() implements ConditionalItemModelProperty {
     public static final MapCodec<IsGlowItem> MAP_CODEC = MapCodec.unit(new IsGlowItem());
 

@@ -11,7 +11,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.Nullable;
 
-@OnlyIn(Dist.CLIENT)
+
 public record ColoredItemTintSource(int defaultColor) implements ItemTintSource {
     public static final MapCodec<ColoredItemTintSource> CODEC = MapCodec.unit(new ColoredItemTintSource(0xFFFFFF));
 

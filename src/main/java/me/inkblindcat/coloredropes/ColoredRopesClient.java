@@ -54,6 +54,7 @@ public class ColoredRopesClient {
         );
     }
 
+
     @SubscribeEvent
     public static void registerItemTintSources(RegisterColorHandlersEvent.ItemTintSources event) {
         event.register(
